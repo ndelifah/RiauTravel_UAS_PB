@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Riau ravel</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="lokasitujuan">Tujuan lokasi</string>
+    <string name="nama">Nama Pemesan</string>
+    <string name="boking">Boking</string>
+    <string name="Harga">Harga</string>
+    <string name="JumlahTiket">Jumlah Tiket</string>
+    <string name="Tanggal">Tanggal</string>
+    <string name="nohp">NO HP</string>
+    <string name="notif_image_description">Notification</string>
+    <string name="address_image_description">Address</string>
+    <string name="account_image_description">Account</string>
+    <string name="password_image_description">Password</string>
+    <string name="language_image_description">Language</string>
+    <string name="add_data_image_description">Add Data</string>
+    <string name="logout_image_description">Logout</string>
+    <string name="Login">Login to your account</string>
+    <string name="MasukkanGambar">Masukkan Gambar</string>
+    <string name="Destinasi">Rute / Destinasi</string>
+    <string name="Tambahkan">Tambahkan</string>
+    <string name="UpdateBoking">Update Boking</string>
+    <string name="Id">Id</string>
+</resources>

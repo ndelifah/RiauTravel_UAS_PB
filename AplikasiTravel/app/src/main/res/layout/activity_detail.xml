@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/Gambar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_apk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TeksId"
+            android:layout_width="55dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="16dp"
+            android:background="#333333"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="@string/Id"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.972"
+            app:layout_constraintStart_toStartOf="@+id/Gambar"
+            app:layout_constraintTop_toTopOf="@+id/Gambar" />
+
+        <TextView
+            android:id="@+id/Teksname"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="112dp"
+            android:background="#333333"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="@string/nama"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/Gambar"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/Gambar"
+            app:layout_constraintTop_toBottomOf="@+id/Gambar" />
+
+        <TextView
+            android:id="@+id/TeksNohp"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:scaleType="fitCenter"
+            android:textColor="@color/white"
+            android:text="@string/nohp"
+            android:textSize="25sp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/Teksname"
+            app:layout_constraintStart_toStartOf="@+id/Teksname"
+            app:layout_constraintTop_toBottomOf="@+id/Teksname" />
+
+
+        <TextView
+            android:id="@+id/TeksLokasi"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:scaleType="fitCenter"
+            android:textColor="@color/white"
+            android:text="@string/lokasitujuan"
+            android:textSize="25sp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="@+id/TeksNohp"
+            app:layout_constraintStart_toStartOf="@+id/TeksNohp"
+            app:layout_constraintTop_toBottomOf="@+id/TeksNohp" />
+
+        <TextView
+            android:id="@+id/TeksJumlahTiket"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:scaleType="fitCenter"
+            android:textColor="@color/white"
+            android:text="@string/JumlahTiket"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/TeksLokasi"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="@+id/TeksLokasi"
+            app:layout_constraintTop_toTopOf="@+id/TeksLokasi" />
+
+        <TextView
+            android:id="@+id/TeksHarga"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:scaleType="fitCenter"
+            android:textColor="@color/white"
+            android:text="@string/Harga"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/TeksJumlahTiket"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="@+id/TeksJumlahTiket"
+            app:layout_constraintTop_toTopOf="@+id/TeksJumlahTiket" />
+
+
+        <TextView
+            android:id="@+id/TeksTanggal"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="#333333"
+            android:gravity="center"
+            android:text="@string/Tanggal"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/TeksHarga"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="@+id/TeksHarga"
+            app:layout_constraintTop_toTopOf="@+id/TeksHarga" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
